@@ -15,6 +15,22 @@
 		FC9ED8F01F86D09000FD28AD /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED8EA1F86D02800FD28AD /* AppDelegate.mm */; };
 		FC9ED9241F86D19900FD28AD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9ED8E21F86D02800FD28AD /* MainMenu.xib */; };
 		FC9ED9251F86D19C00FD28AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9ED8E11F86D02800FD28AD /* Assets.xcassets */; };
+		FC9ED9531F86E23A00FD28AD /* CVHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED9211F86D18400FD28AD /* CVHelper.mm */; };
+		FC9ED9541F86E23A00FD28AD /* BaseCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED8F81F86D12100FD28AD /* BaseCharacters.m */; };
+		FC9ED9551F86E23A00FD28AD /* NSEvent+MouseClamped.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED8FE1F86D12100FD28AD /* NSEvent+MouseClamped.m */; };
+		FC9ED9561F86E23A00FD28AD /* NSData+Adler32.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED9021F86D12100FD28AD /* NSData+Adler32.m */; };
+		FC9ED9571F86E23A00FD28AD /* NSData+stringAsBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED9031F86D12100FD28AD /* NSData+stringAsBase.m */; };
+		FC9ED9581F86E23A00FD28AD /* NSData+Output.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED9041F86D12100FD28AD /* NSData+Output.m */; };
+		FC9ED9591F86E23A00FD28AD /* NSScreen+PointConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED90C1F86D12100FD28AD /* NSScreen+PointConversion.m */; };
+		FC9ED95A1F86E23A00FD28AD /* NSString+Adler32.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED9121F86D12100FD28AD /* NSString+Adler32.m */; };
+		FC9ED95B1F86E23A00FD28AD /* NSString+stringAsBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED9131F86D12100FD28AD /* NSString+stringAsBase.m */; };
+		FC9ED95C1F86E23A00FD28AD /* NSString+stringAsReverseString.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED9141F86D12100FD28AD /* NSString+stringAsReverseString.m */; };
+		FC9ED95D1F86E23A00FD28AD /* NSString+cleaning.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED9151F86D12100FD28AD /* NSString+cleaning.m */; };
+		FC9ED95E1F86E23A00FD28AD /* NSImage+subImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED91D1F86D12100FD28AD /* NSImage+subImage.mm */; };
+		FC9ED95F1F86E25900FD28AD /* swap.c in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED8F91F86D12100FD28AD /* swap.c */; };
+		FC9ED9601F86E25900FD28AD /* gcd.c in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED9071F86D12100FD28AD /* gcd.c */; };
+		FC9ED9611F86E25900FD28AD /* lcm.c in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED90A1F86D12100FD28AD /* lcm.c */; };
+		FC9ED9621F86E25900FD28AD /* Adler-32.c in Sources */ = {isa = PBXBuildFile; fileRef = FC9ED9181F86D12100FD28AD /* Adler-32.c */; };
 		FCE8B7ED1F81A44000EAD44D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE8B7EC1F81A44000EAD44D /* ImageIO.framework */; };
 		FCE8B7EF1F81A47500EAD44D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE8B7EE1F81A47500EAD44D /* Cocoa.framework */; };
 		FCE8B7FE1F86C6D700EAD44D /* CaffeClassifier in Resources */ = {isa = PBXBuildFile; fileRef = FCE8B7FD1F86C6D700EAD44D /* CaffeClassifier */; };
@@ -406,6 +422,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9ED95F1F86E25900FD28AD /* swap.c in Sources */,
+				FC9ED9601F86E25900FD28AD /* gcd.c in Sources */,
+				FC9ED9611F86E25900FD28AD /* lcm.c in Sources */,
+				FC9ED9621F86E25900FD28AD /* Adler-32.c in Sources */,
+				FC9ED9531F86E23A00FD28AD /* CVHelper.mm in Sources */,
+				FC9ED9541F86E23A00FD28AD /* BaseCharacters.m in Sources */,
+				FC9ED9551F86E23A00FD28AD /* NSEvent+MouseClamped.m in Sources */,
+				FC9ED9561F86E23A00FD28AD /* NSData+Adler32.m in Sources */,
+				FC9ED9571F86E23A00FD28AD /* NSData+stringAsBase.m in Sources */,
+				FC9ED9581F86E23A00FD28AD /* NSData+Output.m in Sources */,
+				FC9ED9591F86E23A00FD28AD /* NSScreen+PointConversion.m in Sources */,
+				FC9ED95A1F86E23A00FD28AD /* NSString+Adler32.m in Sources */,
+				FC9ED95B1F86E23A00FD28AD /* NSString+stringAsBase.m in Sources */,
+				FC9ED95C1F86E23A00FD28AD /* NSString+stringAsReverseString.m in Sources */,
+				FC9ED95D1F86E23A00FD28AD /* NSString+cleaning.m in Sources */,
+				FC9ED95E1F86E23A00FD28AD /* NSImage+subImage.mm in Sources */,
 				FC9ED8EF1F86D08D00FD28AD /* main.m in Sources */,
 				FC9ED8F01F86D09000FD28AD /* AppDelegate.mm in Sources */,
 			);
